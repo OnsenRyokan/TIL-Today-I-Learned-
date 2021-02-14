@@ -28,7 +28,7 @@
 ###  ICMP (Internet Control Message Protocol)  
 # 21/2/15
 *웹 후크(웹 콜백, HTTP PUSH API) - 앱이 다른 앱에 실시간 정보를 제공하는 방법 - 사용을 위해서는 webhook 제공자, 서비스에게 요청을 전달할 url을 제공 그렇게 설정 하면
-웹 훅은 사용자의 http post 요청을 할 것이고 사용자는 이를 해석해야 한다. 대다수의 웹훅은 json , application/x-www-form-urlencoded, multipart/form-data로 데이터를  
+웹 훅은 사용자의 http post 요청을 할 것이고 사용자는 이를 해석해야 한다. 대다수의 웹훅은 json , application/x-www-form-urlencoded, multipart/form-data로 데이터를
 post할 것이다.
 *폴링 - 웹은 태생 자체(?)가 실시간을 위해 필수적인 요소인 지속적인 연결(Persistent connection)을 가질 수 없고 클라이언트에서 서버로 접속을 하면 서버는 응답을 하고  
 연결이 끊어진다(HTTP의 특징)  따라서 웹에서 현재 운용되는 실시간 서비스들은 대부분 실시간이 아니다(10초~30초 정도의 단위라고 명시할 수는 있으나 완전 실시간은 아닌 것)  
