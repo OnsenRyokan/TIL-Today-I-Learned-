@@ -43,5 +43,8 @@ post할 것이다.
 # 21/2/17
 1. ArrayList , List 차이  우선 ArrayList는 클래스이고 List는 인터페이스이다  List list = new ArrayList(); 여기서 이 List는 인터페이스 이므로 도형 객체라고 생각하면 되고 ArrayList는 클래스이므로 정사각형이라고 비유할 수 있다.
 
+# 21/2/20
+https://opentutorials.org/module/516
+
 
 
